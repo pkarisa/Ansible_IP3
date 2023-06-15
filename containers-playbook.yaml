@@ -2,8 +2,8 @@
 - name: Run yolo Containers
   hosts: all
   vars:
-    client_image: pkarisa/client:v1.0.0
-    backend_image: pkarisa/backend:v1.0.0
+    client_image: pkarisa/client:1.0.0
+    backend_image: pkarisa/backend:1.0.0
     app_folder: /opt/yolo
 
   tasks:
