@@ -6,4 +6,15 @@
     backend_image: pkarisa/backend:v1.0.0
     app_folder: /opt/yolo
 
- 
+  tasks:
+    - name: Pull the client image
+      community.docker.docker_image:
+        name: "{{ client_image }}"
+        source: pull
+
+    - name: Pull the backend image
+      community.docker.docker_image:
+        name: "{{ backend_image }}"
+        source: pull
+
+    
