@@ -6,6 +6,6 @@
 
 ### The project implements variables and hosts
 
-### The project runs in AWS (You will need an account with GCP OR AWS)
+### The project runs in AWS (You will need an account with GCP or AWS)
 
 ### Ensure to edit the project id to your preferred and set up your own SSH keys for validation
