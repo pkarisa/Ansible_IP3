@@ -5,7 +5,7 @@
   tasks:
     - name: Provision resources using Terraform
       terraform:
-        project_path: terraform
+        project_path:"{{ role_path }}/terraform"
         state: present
 
 - name: Wait for two minutes
