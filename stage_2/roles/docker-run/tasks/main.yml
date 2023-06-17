@@ -1,6 +1,5 @@
 ---
 - name: Run yolo Containers
-  hosts: all
   vars:
     client_image: pkarisa/client:1.0.0
     backend_image: pkarisa/backend:1.0.0
