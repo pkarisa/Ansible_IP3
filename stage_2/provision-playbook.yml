@@ -4,9 +4,9 @@
 
   tasks:
   - name: Terraform plan
-      terraform:
-        project_path: "{{ playbook_dir }}/terraform"
-        state: plan
+    terraform:
+      project_path: "{{ playbook_dir }}/terraform"
+      state: plan
 
   - name: Terraform apply
     terraform:
