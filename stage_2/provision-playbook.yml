@@ -13,7 +13,7 @@
   gather_facts: false
 
   tasks:
-    - name: Wait for two minutes
+    - name: Wait for the server to provinsion 
       pause:
         minutes: 2
 
