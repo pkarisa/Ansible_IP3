@@ -3,11 +3,16 @@
   hosts: localhost  # Ansible runs locally
 
   tasks:
-    - name: Provision resources using Terraform
+  - name: Terraform plan
       terraform:
         project_path: "{{ playbook_dir }}/terraform"
-        state: present
+        state: plan
 
+  - name: Terraform apply
+    terraform:
+      project_path: "{{ playbook_dir }}/terraform"
+      state: apply
+  
 - name: Wait for two minutes
   hosts: localhost  # Ansible runs locally
   gather_facts: false
