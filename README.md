@@ -1,4 +1,4 @@
-# Ansible and Terraform AWS Configuration Management Project
+# **Ansible and Terraform AWS Configuration Management Project**
 
 ### The goal is to set up and Ansible Playbook and Terraform file that provisions recources on AWS and Terminus then  invokes the playbook to start the application.
 
