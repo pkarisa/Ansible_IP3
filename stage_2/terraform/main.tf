@@ -27,5 +27,4 @@ resource "aws_instance" "example" {
     ]
   }
 
-  sensitive = true
 }
