@@ -1,6 +1,6 @@
 # **Ansible and Terraform AWS Configuration Management Project**
 
-### The goal is to set up and Ansible Playbook and Terraform file that provisions recources on AWS and Termius then  invokes the playbook to start the application.
+### The goal is to set up and Ansible Playbook and Terraform file that provisions recources on AWS and Termius then  invokes the playbooks to start the application.
 
 ### The environment is set up with debian-cloud/debian-11 as the base image.
 
