@@ -2,16 +2,16 @@
 - name: Provision and configure resources
   hosts: localhost  # Ansible runs locally
 
-   tasks:
-    - name: Initialize Terraform
-      community.general.terraform:
-        project_path: "{{ playbook_dir }}/terraform"
-        state: present
-        force_init: true
+  tasks:
+  - name: Initialize Terraform
+    community.general.terraform:
+      project_path: "{{ playbook_dir }}/terraform"
+      state: present
+      force_init: true
 
-    - name: Wait for the server to complete initializing before proceeding
-      pause:
-        minutes: 3
+  - name: Wait for the server to complete initializing before proceeding
+    pause:
+      minutes: 3
 
 - name: Reload host file # Ansible reload the host file to get the newly created host
   hosts: localhost
