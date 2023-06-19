@@ -1,5 +1,5 @@
 resource "aws_key_pair" "example" {
-  key_name   = "pkarisa"
+  key_name   = "pkarisa1"
   public_key = var.public_key  # Update the key in the.tfvars file
 }
 
